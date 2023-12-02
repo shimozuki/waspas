@@ -27,16 +27,18 @@
 <!-- DataTales Example -->
 <div class="card shadow mb-4">
     <div class="card-header py-3">
-        <h5 class="m-0 font-weight-bold text-primary">Mata Pelajaran</h5>
+        <h5 class="m-0 font-weight-bold text-primary">Hasil</h5>
     </div>
     <div class="card-body">
         <table class="table table-bordered" id="" width="100%" cellspacing="0">
             <thead>
                 <tr>
                     <th>Nama</th>
-                    <th>WSM</th>
-                    <th>WPM</th>
-                    <th>WASPAS</th>
+                    <th>Level 1</th>
+                    <th>Level 2</th>
+                    <th>Level 3</th>
+                    <th>Level 4</th>
+                    <th>Level 5</th>
                 </tr>
             </thead>
             <tbody>
@@ -74,6 +76,8 @@
 
                                 }}
                             </td>
+                            <td></td>
+                            <td></td>
                     </tr>
                 </tbody>
                 @endforeach
