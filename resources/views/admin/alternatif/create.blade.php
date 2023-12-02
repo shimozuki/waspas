@@ -16,7 +16,7 @@
     <div class="col-lg-12 order-lg-1">
         <div class="card shadow mb-4">
         <div class="card-header py-3">
-            <h6 class="m-0 font-weight-bold text-primary">Tambah Mapel</h6>
+            <h6 class="m-0 font-weight-bold text-primary">Tambah Siswa</h6>
         </div>
             <div class="card-body">
             <form action="{{ route('alternatif.store') }}" method="POST">
@@ -26,15 +26,15 @@
                 <input type="text" class="form-control" name="nama">
             </div>
             <div class="form-group">
-                <label>Rata-rata Nilai Kompetensi</label>
+                <label>Rata-rata Nilai</label>
                 <input type="number" step="0.01" class="form-control" name="C1">
             </div>
             <div class="form-group">
-                <label>Jumlah Siswa Dibawah KKM</label>
+                <label>Jumlah Standar</label>
                 <input type="number" step="0.01" class="form-control" name="C2">
             </div>
             <div class="form-group">
-                <label>Keaktifan</label>
+                <label>nilai</label>
                 <input type="number" step="0.01" class="form-control" name="C3">
             </div>
             <div class="form-group">
