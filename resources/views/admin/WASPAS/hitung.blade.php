@@ -76,8 +76,28 @@
 
                                 }}
                             </td>
-                            <td></td>
-                            <td></td>
+                            {{-- Qi --}}
+                            <td>
+                            {{
+                                ((($item->C1 / $C1max['mapel'])*$weight1['kriterias'])+
+                                (( $C2min['mapel'] /  $item->C2)*$weight2['kriterias'])+
+                                (($item->C3 / $C3max['mapel'])*$weight3['kriterias'])+
+                                (($item->C4 / $C4max['mapel'])*$weight4['kriterias']))*0.5
+                                    +
+                                ((($item->C1 / $C1max['mapel'])**$weight1['kriterias'])+
+                                (( $C2min['mapel'] /  $item->C2)**$weight2['kriterias'])+
+                                (($item->C3 / $C3max['mapel'])**$weight3['kriterias'])+
+                                (($item->C4 / $C4max['mapel'])**$weight4['kriterias']))*0.5
+
+                                }}
+                            </td>
+                            {{-- Qi --}}
+                            <td>
+                            {{(($item->C1 / $C1max['mapel'])**$weight1['kriterias'])*
+                                (( $C2min['mapel'] / $item->C2 )**$weight2['kriterias'])*
+                                (($item->C3 / $C3max['mapel'])**$weight3['kriterias'])*
+                                (($item->C4 / $C4max['mapel'])**$weight4['kriterias'])}}
+                            </td>
                     </tr>
                 </tbody>
                 @endforeach

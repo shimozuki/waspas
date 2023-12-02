@@ -26,20 +26,24 @@
                 <input type="text" class="form-control" name="nama">
             </div>
             <div class="form-group">
-                <label>Rata-rata Nilai</label>
-                <input type="number" step="0.01" class="form-control" name="C1">
+                <label>speaking</label>
+                <input type="number" step="0.20" class="form-control" name="C1">
             </div>
             <div class="form-group">
-                <label>skala</label>
+                <label>Reading</label>
                 <input type="number" step="0.01" class="form-control" name="C2">
             </div>
             <div class="form-group">
-                <label>nilai</label>
+                <label>Listening</label>
                 <input type="number" step="0.01" class="form-control" name="C3">
             </div>
             <div class="form-group">
-                <label>Kemampuan</label>
+                <label>Writing</label>
                 <input type="number" step="0.01" class="form-control" name="C4">
+            </div>
+            <div class="form-group">
+                <label>Kosakata</label>
+                <input type="number" step="0.01" class="form-control" name="C5">
             </div>
 
 
