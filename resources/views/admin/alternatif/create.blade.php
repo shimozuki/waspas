@@ -30,7 +30,7 @@
                 <input type="number" step="0.01" class="form-control" name="C1">
             </div>
             <div class="form-group">
-                <label>Jumlah Standar</label>
+                <label>skala</label>
                 <input type="number" step="0.01" class="form-control" name="C2">
             </div>
             <div class="form-group">
